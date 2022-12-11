@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const { errors } = require('celebrate');
@@ -5,7 +6,6 @@ const cors = require('./middlewares/cors');
 const errorHandler = require('./middlewares/errorHandler');
 const routes = require('./routes');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
-require('dotenv').config();
 
 const { PORT = 3000, MONGO_URI = 'mongodb://localhost/mestodb' } = process.env;
 const app = express();
