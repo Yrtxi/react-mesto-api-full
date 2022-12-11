@@ -1,0 +1,17 @@
+.profile__change-button {
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden; 
+}
+
+@media screen and (max-width: 815px) {
+  .profile__change-button {
+    margin-bottom: 26px;
+  }
+}

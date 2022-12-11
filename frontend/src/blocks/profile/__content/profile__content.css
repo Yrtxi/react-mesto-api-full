@@ -1,0 +1,13 @@
+.profile__content {
+  display: grid;
+  grid-template-columns: max-content auto;
+
+  
+}
+
+@media screen and (max-width: 815px) {
+  .profile__content {
+   justify-content: center;
+   
+  }
+}

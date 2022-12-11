@@ -1,0 +1,10 @@
+.register__signin-title {
+  display: flex;
+  padding-top: 15px;
+  margin: 0;
+  gap: 3px;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}

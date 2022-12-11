@@ -1,0 +1,10 @@
+.header__menu-container {
+  display: flex;
+  gap: 24px;
+}
+
+@media screen and (max-width: 550px) {
+  .header__menu-container {
+    display: none;
+  }
+}

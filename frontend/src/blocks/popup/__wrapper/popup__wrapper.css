@@ -1,0 +1,12 @@
+.popup__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 36px * 2);
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 435px) {
+  .popup__wrapper {
+    width: calc(100% - 22px * 2);
+  }
+}

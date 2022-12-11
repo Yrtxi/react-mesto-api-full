@@ -1,0 +1,10 @@
+.element__image {
+  object-fit: cover;
+  object-position: center;
+  height: 282px;
+  width: 100%;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

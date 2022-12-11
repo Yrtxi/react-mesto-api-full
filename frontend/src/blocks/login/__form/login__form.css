@@ -1,0 +1,7 @@
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  padding-top: 50px;
+}

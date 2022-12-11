@@ -1,0 +1,15 @@
+.header__menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-top: 6px;
+  gap: 24px;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 425px) {
+  .header__menu {
+    margin-right: 30px;
+    gap: 5px;
+  }
+}

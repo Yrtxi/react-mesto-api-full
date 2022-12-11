@@ -1,0 +1,21 @@
+ {/* <Route
+              path="/sign-up"
+              element={
+                loggedIn ? (
+                  <Navigate to="/mesto-react" replace />
+                ) : (
+                  <Register onRegister={handleRegister} />
+                )
+              }
+            ></Route>
+
+            <Route
+              path="/sign-in"
+              element={
+                loggedIn ? (
+                  <Navigate to="/mesto-react" replace />
+                ) : (
+                  <Login onLogin={handleLogin} />
+                )
+              }
+            ></Route> */}
