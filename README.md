@@ -4,3 +4,4 @@
 * IP 84.252.130.253 
 * Frontend https://mestoyrtx.students.nomoredomains.club
 * Backend https://api.mestoyrtx.students.nomoredomains.club
+* Ссылка на репозиторий на github https://github.com/Yrtxi/react-mesto-api-full
